@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>articulo</title>
+</head>
+
+<body>
+    <section>
+        <h1>Agregar producto</h1>
+        <form>
+            <label>Código: </label>
+            <input id="codigo" type="number" value="1" >
+            <label>Nombre: </label>
+            <input id="nombre" type="text" value="cereal">
+            <label>Precio: </label>
+            <input id="precio" type="number" value="12">
+            <label>Cantidad: </label>
+            <input id="cantidad" type="number" value="19">
+            <label>Descripción: </label>
+            <input id="descripcion" type="text" value="cereal de chocolate">
+            <button id="agregar" type="button">Agregar</button>
+        </form>
+        <h1>Buscar producto</h1>
+        <form>
+            <label>Código: </label>
+            <input id="buscarCodigo" type="number">
+            <button id="buscar" type="button">Buscar</button>
+            <div id="tablaBuscar"></div>
+        </form>
+    </section>
+    <aside>
+        <button id="inorder" type="button">inorder</button>
+        <button id="preorder" type="button">preorder</button>
+        <button id="posorder" type="button">posorder</button>
+        <h1>Tabla Inventario</h1>
+        <div id="tablaArticulos"></div>
+        <h1>Tabla inorder</h1>
+        <div id="tablainorder"></div>
+        <h1>Tabla posorder</h1>
+        <div id="tablaposorder"></div>
+        <h1>Tabla preorder</h1>
+        <div id="tablapreorder"></div>
+
+    </aside>
+</body>
+<script src="articulo.js"></script>
+
+</html>
